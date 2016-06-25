@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  SEA-DAT2 course repository
 ###General Assembly Data Science course
 **Location:** Seattle, WA
@@ -753,3 +754,6 @@ Name | Description
  * Part 6 https://www.youtube.com/watch?v=9KM9Td6RVgQ
  * Part 7 https://www.youtube.com/watch?v=S4ZUwgesjS8
 
+=======
+# DS-SEA-3
+>>>>>>> 4a1b546730bfec9d104a1bc8ee6c6345b19fa860
