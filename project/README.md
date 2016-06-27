@@ -12,33 +12,29 @@ Here's a collection of [past projects](/project/project_examples) from GA Data S
 
 ## Due Dates and Links
 
-* **March 29:** Discuss project ideas with instructional team
+* **July 13:** Discuss project ideas with instructional team
     * [Past student projects](https://github.com/justmarkham/DAT-project-examples)
     * [Public data sources](public_data.md)
     * Data science competitions: [Kaggle](http://www.kaggle.com/), [DrivenData](http://www.drivendata.org/competitions/), [CrowdANALYTIX](https://www.crowdanalytix.com/community), [TunedIT](http://tunedit.org/challenges), [InnoCentive](https://www.innocentive.com/ar/challenge/browse)
-* **Mar 31:** Project question and dataset
+* **July 18:** Project question and dataset
     * [Project question](https://github.com/ckf2102/DAT7-Coursework/blob/master/Project/Archive/ProjectQuestion.md) by Corinne Fukayama
     * [Project question](https://github.com/wandergram/datsci/blob/master/UN/question.md) by Alex Kapitanskaya
-* **April 21:** First project presentation
+* **August 8:** First project presentation
     * [First presentation](https://github.com/ckf2102/DAT7-Coursework/blob/master/Project/Archive/20150713-Presentation.pdf) by Corinne Fukayama
-* **April 28:** Draft paper
-* **May 10:** Peer review
+* **August 15:** Draft paper
+* **August 24:** Peer review
     * [Peer review guidelines](peer_review.md)
-* **May 19:** Final project presentation and paper
-    * [Final presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/bus_presentation.pdf) by Austin Brown
-    * [Final presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/crime_presentation.pdf) by Debbie Yu
-    * [Final presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/dota_presentation.pdf) and [final paper](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/dota_paper.pdf) by Kyle Pomerleau
-    * [Final paper](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/nba_paper.pdf) by Kerry Jones
+* **September 19:** Final project presentation and paper
     * [Final paper](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class%20Project.ipynb) by Mike Yea
 
 
 ## Milestones
 
-### March 29: Discuss your project ideas
+### July 13: Discuss your project ideas
 
 By November 10, you should talk with a member of the instructional team about your project idea(s). We can help you to choose between different ideas, advise you on the appropriate scope for your project, and ensure that your project question might reasonably be answerable using the data science tools and techniques taught in the course. (There is nothing you have to turn in for this milestone.)
 
-### March 31: Project question and dataset
+### July 18: Project question and dataset
 
 Create a GitHub repository for your project. It should include a **short write-up** that answers these questions:
 
@@ -54,7 +50,7 @@ Create a GitHub repository for your project. It should include a **short write-u
 * Reasonably available data: The question depends on data that is likely to be available in a "meaningful" quantity.
 * Reasonable hypothesis: The question examines factors (B) that might actually be predictive of the outcome (A).
 
-### April 21: First project presentation
+### August 8: First project presentation
 
 You'll be giving a short presentation to the class about the work you have done so far, as well as your plans for the project going forward. Your presentation should use slides (or a similar format). Your **slides, code, data, and visualizations** should be included in your GitHub repository. Here are some questions that you should address in your presentation:
 
@@ -79,7 +75,7 @@ You'll be giving a short presentation to the class about the work you have done 
 
 If it's not practical to include your entire dataset in your GitHub repository, you should link to your data source and provide a sample of the data. (GitHub has a [size limit](https://help.github.com/articles/what-is-my-disk-quota/) of 100 MB per file and 1 GB per repository.) If your data is private, you can either include an "anonymized" version of your data or create a private GitHub repository.
 
-### April 28: Draft paper due
+### August 15: Draft paper due
 
 A draft of your **project paper** is due, along with the **data, well-commented code, and visualizations**. It should be written with a technical audience in mind. Your paper should include the following components:
 
@@ -95,11 +91,11 @@ A draft of your **project paper** is due, along with the **data, well-commented 
 
 Your peers and instructional team will be providing feedback. However, the paper should stand "on its own", and should not depend upon the reader remembering your first presentation. The easier your paper is to follow, the more useful feedback you will receive! As well, if your reviewers can actually run your code on the provided data, they will be able to give you better feedback on your code.
 
-### May 10: Peer review due
+### August 24: Peer review due
 
 You will provide project feedback to two of your peers, according to the [peer review guidelines](peer_review.md).
 
-### Mar 19: Final project presentation (and final paper due)
+### September 7: Final project presentation (and final paper due)
 
 Your project repository on GitHub should contain the following:
 
