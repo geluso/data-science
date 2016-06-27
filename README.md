@@ -110,8 +110,8 @@ Before this lesson you should already be able to:
 <a name="research-design"></a>
 ### Class 2: Research Design and Pandas
 **Student pre-work**
-Before this lesson, you should already be able to:
-* Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account)
+<!--Before this lesson, you should already be able to:
+* Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account) -->
 
 <!-- * Create, open, create and shutdown an IPython Notebook-->
 
