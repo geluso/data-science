@@ -93,7 +93,7 @@ Before this lesson you should already be able to:
 * Due June 29
 	* Read through the information about the course project information to familiarize yourself with the [requirements](project/README.md) and [example projects](/project/project_examples/README.md).  Start thinking about what question you would like to answer in your project.
 		* Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
-* Due Thur June 29
+* Due Wed July 6
 	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
 	    * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
@@ -135,7 +135,7 @@ Before this lesson, you should already be able to:
 	* Independent Practice ([notebook](notebooks/02_starter_code.ipynb))
  
 **Homework:**
-* Due Thur July 6
+* Due Wed July 6
 	* To turn in homework,  attach files to a personal message in Slack to Jim Byers and Qingqing 
 	* Review each concept and each line of code in these files of python code: [00_python_beginner_workshop.py](code/00_python_beginner_workshop.py) and [00_python_intermediate_workshop.py](code/00_python_intermediate_workshop.py). Complete the coding exercises in the files: If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time before Mar 22nd practicing Python.  Use your resources such as documentation, searches, the class Slack to get help if you get stuck.  Here are some additional resources:
 	    * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
@@ -188,7 +188,7 @@ Name | Description
 		* Visualization with Pandas [(notebook)](notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb)
 
 **Homework:**
-* Due Thur July 13th
+* Due Wed July 13th
 	* *Windows users*, install [Git Bash](http://git-scm.com/download/win) prior to starting the command line pre-class exercise*** as you will need the "bash" type command window on your Windows laptop in order to do the exercise and later to use git
 		* We recommend Git Bash instead of Git Shell (which uses Powershell).
 		* For Mac users, you will probably be using Terminal, or another command line application of your choice.  It already is a bash type command line interpreter.  No need to load anything.  Git is part of the MAC OS so is already installed and ready to use.
