@@ -79,7 +79,6 @@ Before this lesson you should already be able to:
 * Welcome from General Assembly!
 * Course overview ([slides](slides/01_course_overview.pdf))
 * What is data science ([slides](slides/01_data_science_intro.pdf))
-	* Data Science Quiz
 * Data Science workflow ([slides](slides/01_data_science_intro.pdf))
 	* [Exercise (Apply the workflow)](other/workflow_exercise.md)
 * Hands-on with the Data Science Dev Environment (Anaconda, Spyder IDE, iPython notebooks)
