@@ -24,7 +24,7 @@ Here's a collection of [past projects](/project/project_examples) from GA Data S
 * **August 15:** Draft paper
 * **August 24:** Peer review
     * [Peer review guidelines](peer_review.md)
-* **September 19:** Final project presentation and paper
+* **September 7:** Final project presentation and paper
     * [Final paper](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class%20Project.ipynb) by Mike Yea
 
 
