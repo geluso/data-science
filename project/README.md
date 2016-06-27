@@ -20,8 +20,6 @@ Here's a collection of [past projects](/project/project_examples) from GA Data S
     * [Project question](https://github.com/ckf2102/DAT7-Coursework/blob/master/Project/Archive/ProjectQuestion.md) by Corinne Fukayama
     * [Project question](https://github.com/wandergram/datsci/blob/master/UN/question.md) by Alex Kapitanskaya
 * **April 21:** First project presentation
-    * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/army_draft_presentation.pdf) by Chandler McCann
-    * [First presentation](https://github.com/justmarkham/DAT-project-examples/blob/master/pdf/media_draft_presentation.pdf) by Nathan Danielsen
     * [First presentation](https://github.com/ckf2102/DAT7-Coursework/blob/master/Project/Archive/20150713-Presentation.pdf) by Corinne Fukayama
 * **April 28:** Draft paper
 * **May 10:** Peer review
