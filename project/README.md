@@ -19,7 +19,7 @@ Here's a collection of [past projects](/project/project_examples) from GA Data S
 * **Mar 31:** Project question and dataset
 
 <!--   * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jason/jk_project_idea.md) by Jason Knobloch
-    * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jennifer/project_description.md) by Jennifer Lambert -->
+    * [Project question](https://github.com/justmarkham/DAT4-students/blob/master/jennifer/project_description.md) by Jennifer Lambert --> 
     * [Project question](https://github.com/ckf2102/DAT7-Coursework/blob/master/Project/Archive/ProjectQuestion.md) by Corinne Fukayama
     * [Project question](https://github.com/wandergram/datsci/blob/master/UN/question.md) by Alex Kapitanskaya
 * **April 21:** First project presentation
