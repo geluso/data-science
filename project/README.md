@@ -13,7 +13,7 @@ Here's a collection of [past projects](/project/project_examples) from GA Data S
 ## Due Dates and Links
 
 * **July 13:** Discuss project ideas with instructional team
-    * [Past student projects](https://github.com/justmarkham/DAT-project-examples)
+    * [Past student projects](/project/project_examples)
     * [Public data sources](public_data.md)
     * Data science competitions: [Kaggle](http://www.kaggle.com/), [DrivenData](http://www.drivendata.org/competitions/), [CrowdANALYTIX](https://www.crowdanalytix.com/community), [TunedIT](http://tunedit.org/challenges), [InnoCentive](https://www.innocentive.com/ar/challenge/browse)
 * **July 18:** Project question and dataset
