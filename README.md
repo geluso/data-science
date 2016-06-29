@@ -124,7 +124,7 @@ Before this lesson, you should already be able to:
 **Topics/Highlights**
 * Discuss the course project: [requirements](project/README.md) and [example projects](/project/project_examples/README.md)
 * The why's and how's of a good question ([slides](slides/02-experimental-design-and-pandas.pdf))
-* Types of datasets ([slides](slides/02-experimental-design-and-pandas.pdf))
+* The two categories of datasets ([slides](slides/02-experimental-design-and-pandas.pdf))
 * Write a research question with raw data (exercise)
 * Data science workflow steps 2. Acquire and 3. Understand the data
 * Acquire and Understand data with Pandas 
