@@ -109,16 +109,15 @@ Before this lesson you should already be able to:
 
 <a name="research-design"></a>
 ### Class 2: Research Design and Pandas
-**Student pre-work**
-<!--Before this lesson, you should already be able to:
+<!--**Student pre-work**
+Before this lesson, you should already be able to:
 * Have completed the python pre-work in the class pre-work described [here](https://gist.github.com/kevinmcalear/9e5625d5eac58fe35de8#account) -->
 
 <!-- * Create, open, create and shutdown an IPython Notebook-->
 
 **After this lesson, you will be able to:**
-* Define a problem and types of data
+* Define a problem clearly
 * Identify data set types
-* Define the data science workflow
 * Apply the data science workflow in the pandas context
 * Write an IPython Notebook to import, format and clean data using the Pandas Library
 
