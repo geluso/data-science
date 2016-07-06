@@ -186,13 +186,13 @@ Name | Description
 		* Visualization with Pandas [(notebook)](notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb)
 
 **Homework:**
-* Due Wed July 13th
+* Due Mon July 11th
 	* *Windows users*, install [Git Bash](http://git-scm.com/download/win) prior to starting the command line pre-class exercise*** as you will need the "bash" type command window on your Windows laptop in order to do the exercise and later to use git
 		* We recommend Git Bash instead of Git Shell (which uses Powershell).
 		* For Mac users, you will probably be using Terminal, or another command line application of your choice.  It already is a bash type command line interpreter.  No need to load anything.  Git is part of the MAC OS so is already installed and ready to use.
 	* Complete GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows)
 	* Complete the command line pre-class exercise ([code](code/04_command_line_basics.md)).  You do not need to turn in this homework
-	* Find one link to a resource about statistics that you find especially useful and send it in a slack message to Jim and Kevin.  Note this will not be graded against the [homework evaluation criteria](https://docs.google.com/spreadsheets/d/19XaVllCETEWyROSMHIShVWgUqK-kbZkvSeCzjK7yezI/edit?usp=sharing).  Jim will share these links back out on our repo so all can benefit.
+	* Find one link to a resource about statistics that you find especially useful and send it in a slack message to the class on Slack.  Note this will not be graded against the [homework evaluation criteria](https://docs.google.com/spreadsheets/d/19XaVllCETEWyROSMHIShVWgUqK-kbZkvSeCzjK7yezI/edit?usp=sharing).  Jim will share these links back out on our repo so all can benefit.
 
 **Statistics Resources:**
 * [Descriptions of Statistics terms in a straight forward way](http://stattrek.com/statistics/dictionary.aspx?definition=Probability_density_function) including density plot
@@ -230,7 +230,7 @@ Name | Description
 * Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md)
 
 **Homework:**
-* Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
+* Due Mon July 16th. Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
 * **Optional:** Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
 
 **Git and Markdown Resources:**
