@@ -182,7 +182,7 @@ Name | Description
 		* Normality Demo [(notebook)](notebooks/03_statistics_demo.ipynb)
 	* Correlation
 		* What is correlation? [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
-			* Correlation is not causation (fun with a commom misconception!)
+			* Correlation is not causation (fun with a common misconception!)
 		* Visualization with Pandas [(notebook)](notebooks/03_correlation_exercise_ice_cream_and_car_data.ipynb)
 
 **Homework:**
