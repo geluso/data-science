@@ -179,7 +179,7 @@ Name | Description
 	* Basic Statistics with Pandas
 		* Statistics Fundamentals [(slides)](slides/03_statistics_fundamentals.pdf)
 		* Code-along [(notebook)](notebooks/03_basic_stats.ipynb)
-		* Stats demo [(notebook)](notebooks/03_statistics_demo.ipynb)
+		* Normality Demo [(notebook)](notebooks/03_statistics_demo.ipynb)
 	* Correlation
 		* What is correlation? [(slides)](https://github.com/JamesByers/GA-SEA-DAT2/blob/master/slides/03_correlation.pdf)
 			* Correlation is not causation (fun with a commom misconception!)
