@@ -253,10 +253,8 @@ Name | Description
 **After this lesson you will be able to:**
 * Articulate what JSON, APIs and Web scraping are and how they help us fetch data
 * Retrieve data from a website using the site’s APIs
-* Scrape a web page to extract data
 
 **Topics/Highlights:**
-* Chipotle command line homework due [(code)](homework/04_command_line_chipotle.md)
 * Fetching data through APIs
     * APIs - key concepts [(slides)](slides/05_APIs_and_web_scraping.pdf)
     * Example of API documentation: [The OMDb API - omdbapi.com](http://www.omdbapi.com/)
@@ -300,7 +298,8 @@ Name | Description
 * Create a linear regression predictive model
 * Evaluate the error of the model's fit to the training data
 
-**Topics/Highlights:**
+**Topics/Highlights:***
+* Chipotle command line homework due [(code)](homework/04_command_line_chipotle.md)
 * Linear regression ([notebook](notebooks/06_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
     * [Data dictionary](https://www.kaggle.com/c/bike-sharing-demand/data)
