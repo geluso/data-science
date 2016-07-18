@@ -230,7 +230,7 @@ Name | Description
 * Intermediate command line [(commands)](code/04_command_line_with_intermediate_advanced.md)
 
 **Homework:**
-* Due Mon July 16th. Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
+* Due Mon July 18th. Complete the [command line homework assignment](homework/04_command_line_chipotle.md) with the Chipotle data.
 * **Optional:** Browse through some more [example student projects](/project/project_examples/README.md), which may help to inspire your own project!
 
 **Git and Markdown Resources:**
@@ -270,7 +270,7 @@ Name | Description
 
 **Homework:**
 * If you're using Anaconda, install Seaborn by running `conda install seaborn` at the command line. (Note that some students in past courses have had problems with Anaconda after installing Seaborn.) If you're not using Anaconda, [install Seaborn](http://stanford.edu/~mwaskom/software/seaborn/installing.html) using `pip`. 
-* **Optional:** Complete the homework exercise listed in the [web scraping code](code/05_web_scraping.py). It will take the place of any one homework you miss, past or future! This is due on Tuesday (April 5th).
+* **Optional:** Complete the homework exercise listed in the [web scraping code](code/05_web_scraping.py). It will take the place of any one homework you miss, past or future! This optional homework is due on Wed July 20.
 
 **API Resources:**
 * This Python script to [query the U.S. Census API](https://github.com/laurakurup/census-api) was created by a former DAT student. It's a bit more complicated than the example we used in class, it's very well commented, and it may provide a useful framework for writing your own code to query APIs.
@@ -308,7 +308,7 @@ Name | Description
 <!--* An additional feature engineering example is available here: [Predicting User Engagement in Corporate Collaboration Network](https://github.com/mikeyea/DAT7_project/blob/master/final%20project/Class_Presention_MYea.ipynb) -->
 
 **Homework:**
-* Complete the [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv). This is due on Thursday (4/7).
+* Complete the [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv). This is due on Monday July 25th.
 
 **Linear Regression Resources:**
 * To go much more in-depth on linear regression, read Chapter 3 of [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/). Alternatively, watch the [related videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/) or read Kevin Markhams [quick reference guide](http://www.dataschool.io/applying-and-interpreting-linear-regression/) to the key points in that chapter.
@@ -335,7 +335,7 @@ Name | Description
 * Machine learning types and terms [(slides)](slides/07_machine_learning.pdf) 
 
 **Homework:**
-* The [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Thursday (4/7).
+* The [homework assignment](homework/06_yelp_votes_homework.ipynb) with the [Yelp data](data/yelp.csv) is due on Monday July 25th.
 * Reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
 * Read Kevin Markhams's [introduction to reproducibility](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/), read Jeff Leek's [guide to creating a reproducible analysis](https://github.com/jtleek/datasharing), and watch this related [Colbert Report video](http://thecolbertreport.cc.com/videos/dcyvro/austerity-s-spreadsheet-error) (8 minutes).
 * Optional: Quick Pandas exercise ([notebook](notebooks/08_pandas_review.ipynb)).  Complete this exercise to sharpen your understanding of dataframes.
