@@ -298,7 +298,7 @@ Name | Description
 * Create a linear regression predictive model
 * Evaluate the error of the model's fit to the training data
 
-**Topics/Highlights:***
+**Topics/Highlights:**
 * Chipotle command line homework due [(code)](homework/04_command_line_chipotle.md)
 * Linear regression ([notebook](notebooks/06_linear_regression.ipynb))
     * [Capital Bikeshare dataset](data/bikeshare.csv) used in a Kaggle competition
