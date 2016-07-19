@@ -15,30 +15,33 @@ How to interact with a REST API:
 
 # read IMDb data into a DataFrame: we want a year column!
 import pandas as pd
-movies = pd.read_csv('../data/imdb_1000.csv')
+path = "/Users/moonmayor/GA/DAT3/repo/data/imdb_1000.csv"
+movies = pd.read_csv(path)
 
 # Look at top 5 rows
-
+movies.head()
 
 # use requests library to interact with a URL
 import requests
 r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
 
 # check the status: 200 means success, 4xx means error
+print(dir(r))
 
+help(r)
 
 # view the raw response text
-
+r.text
 
 # decode the JSON response body into a dictionary
-
+jj = r.json()
 
 # extracting the year from the dictionary
-
+jj["Year"]
 
 # what happens if the movie name is not recognized?
-r = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
-
+r2 = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
+print(r2.text)
 
 
 # define a function to return the year
@@ -53,9 +56,25 @@ def get_movie_year(title):
 # test the function
 get_movie_year('The Shawshank Redemption')
 get_movie_year('blahblahblah')
+get_movie_year('Rushmore')
+
+print(get_movie_year('Star Trek: The Motion Picture'))
+print(get_movie_year('Star Trek II'))
+print(get_movie_year('Star Trek III'))
+print(get_movie_year('Star Trek IV'))
+print(get_movie_year('Star Trek V'))
+print(get_movie_year('Star Trek VI'))
+print(get_movie_year('Star Trek Generations'))
+print(get_movie_year('Star Trek First Contact'))
+print(get_movie_year('Star Trek Insurrection'))
+print(get_movie_year('Star Trek Nemesis'))
+print(get_movie_year('Star Trek'))
+print(get_movie_year('Star Trek Into Darkness'))
+print(get_movie_year('Star Trek Beyond'))
 
 # create a smaller DataFrame for testing
-
+top_movies = movies.head().copy()
+top_movies
 
 # write a for loop to build a list of years
 from time import sleep
@@ -65,9 +84,12 @@ for title in top_movies.title:
     sleep(1)
 
 # check that the DataFrame and the list of years are the same length
+print(len(years), len(top_movies))
 
 # save that list as a new column
-
+dir(top_movies)
+top_movies['Years'] = years
+top_movies
 
 '''
 Bonus content: Updating the DataFrame as part of a loop
@@ -76,11 +98,11 @@ Bonus content: Updating the DataFrame as part of a loop
 # enumerate allows you to access the item location while iterating
 letters = ['a', 'b', 'c']
 for index, letter in enumerate(letters):
-    print index, letter
+    print(index, letter)
 
 # iterrows method for DataFrames is similar
 for index, row in top_movies.iterrows():
-    print index, row.title
+    print(index, row.title)
 
 # create a new column and set a default value
 
