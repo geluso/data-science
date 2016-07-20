@@ -15,30 +15,35 @@ How to interact with a REST API:
 
 # read IMDb data into a DataFrame: we want a year column!
 import pandas as pd
-movies = pd.read_csv('../data/imdb_1000.csv')
+path = "C:/Users/byerj023/Documents/GA/GA_Data_Science_course/DS-SEA-3/data/"
+movies = pd.read_csv(path + 'imdb_1000.csv')
 
 # Look at top 5 rows
-
+movies.head()
 
 # use requests library to interact with a URL
 import requests
 r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
 
 # check the status: 200 means success, 4xx means error
-
-
+r.status_code
+r.json()
 # view the raw response text
+r.text
 
+#print(dir(r))
+#help(r)
+r.headers
 
 # decode the JSON response body into a dictionary
-
+r.json()
 
 # extracting the year from the dictionary
-
+r.json()['Year']
 
 # what happens if the movie name is not recognized?
 r = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
-
+r.status_code
 
 
 # define a function to return the year
@@ -48,14 +53,18 @@ def get_movie_year(title):
     if info['Response'] == 'True':
         return int(info['Year'])
     else:
-        return None
+        return "error"
 
+import pandas as pd
+response_df = pd.DataFrame.from_dict(r.json(), orient = "index")
+#movies_df = pd.DataFrame(foo)
+        
 # test the function
 get_movie_year('The Shawshank Redemption')
 get_movie_year('blahblahblah')
 
 # create a smaller DataFrame for testing
-
+top_movies = movies.head().copy()
 
 # write a for loop to build a list of years
 from time import sleep
@@ -65,9 +74,11 @@ for title in top_movies.title:
     sleep(1)
 
 # check that the DataFrame and the list of years are the same length
+assert (len(top_movies) < len(years))
 
 # save that list as a new column
-
+top_movies['Years'] = years
+top_movies.head()
 
 '''
 Bonus content: Updating the DataFrame as part of a loop
