@@ -15,8 +15,13 @@ How to interact with a REST API:
 
 # read IMDb data into a DataFrame: we want a year column!
 import pandas as pd
+<<<<<<< HEAD
 path = "/Users/moonmayor/GA/DAT3/repo/data/imdb_1000.csv"
 movies = pd.read_csv(path)
+=======
+path = "C:/Users/byerj023/Documents/GA/GA_Data_Science_course/DS-SEA-3/data/"
+movies = pd.read_csv(path + 'imdb_1000.csv')
+>>>>>>> a6490c10b43fd3e30bf3e4153930259e7f6e420f
 
 # Look at top 5 rows
 movies.head()
@@ -26,6 +31,7 @@ import requests
 r = requests.get('http://www.omdbapi.com/?t=the shawshank redemption&r=json&type=movie')
 
 # check the status: 200 means success, 4xx means error
+<<<<<<< HEAD
 print(dir(r))
 
 help(r)
@@ -42,6 +48,26 @@ jj["Year"]
 # what happens if the movie name is not recognized?
 r2 = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
 print(r2.text)
+=======
+r.status_code
+r.json()
+# view the raw response text
+r.text
+
+#print(dir(r))
+#help(r)
+r.headers
+
+# decode the JSON response body into a dictionary
+r.json()
+
+# extracting the year from the dictionary
+r.json()['Year']
+
+# what happens if the movie name is not recognized?
+r = requests.get('http://www.omdbapi.com/?t=blahblahblah&r=json&type=movie')
+r.status_code
+>>>>>>> a6490c10b43fd3e30bf3e4153930259e7f6e420f
 
 
 # define a function to return the year
@@ -51,8 +77,12 @@ def get_movie_year(title):
     if info['Response'] == 'True':
         return int(info['Year'])
     else:
-        return None
+        return "error"
 
+import pandas as pd
+response_df = pd.DataFrame.from_dict(r.json(), orient = "index")
+#movies_df = pd.DataFrame(foo)
+        
 # test the function
 get_movie_year('The Shawshank Redemption')
 get_movie_year('blahblahblah')
@@ -74,7 +104,10 @@ print(get_movie_year('Star Trek Beyond'))
 
 # create a smaller DataFrame for testing
 top_movies = movies.head().copy()
+<<<<<<< HEAD
 top_movies
+=======
+>>>>>>> a6490c10b43fd3e30bf3e4153930259e7f6e420f
 
 # write a for loop to build a list of years
 from time import sleep
@@ -84,12 +117,20 @@ for title in top_movies.title:
     sleep(1)
 
 # check that the DataFrame and the list of years are the same length
+<<<<<<< HEAD
 print(len(years), len(top_movies))
 
 # save that list as a new column
 dir(top_movies)
 top_movies['Years'] = years
 top_movies
+=======
+assert (len(top_movies) < len(years))
+
+# save that list as a new column
+top_movies['Years'] = years
+top_movies.head()
+>>>>>>> a6490c10b43fd3e30bf3e4153930259e7f6e420f
 
 '''
 Bonus content: Updating the DataFrame as part of a loop
