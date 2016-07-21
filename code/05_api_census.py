@@ -116,7 +116,7 @@ totals = totals.append(d3)
 totals
 
 cols = ["NAME", "EST"]
-
+totals = pd.DataFrame(columns=["NAME", "EST"])
 for i in range(1, 51):
     url = states + str(i)
     print("fetching", url)
@@ -126,12 +126,13 @@ for i in range(1, 51):
         di = pd.DataFrame(ji[1:], columns=ji[0])
         di = di[cols][di.LAN == "625"]
         
-        totals = totals.append(di)
+        totals = totals.append(di, ignore_index=True)
         print(di)
     except Exception as e:
         print("Error")
     
-#totals
+totals
+
 #
 #                   NAME       EST
 #0               Alabama    151385
