@@ -362,6 +362,13 @@ Name | Description
 
 <a name="evaluating-fit"></a>
 ### Class 8: Basic Model Evaluation
+
+**After this lesson you will be able to:**
+* Describe what Bias and Variance are
+* Explain the Bias/Variance tradeoff.
+* Be able to assess overall model error with test/train split training data
+
+**Topics/Highlights:**
 * Discuss the reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
 * Exploring the bias-variance tradeoff ([notebook](notebooks/08_bias_variance.ipynb)) 
 * Model evaluation using train/test split ([notebook](notebooks/08_model_evaluation.ipynb))
