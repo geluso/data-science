@@ -369,7 +369,7 @@ Name | Description
 * Be able to assess overall model error with test/train split training data
 
 **Topics/Highlights:**
-* Discuss the reading assignment on the [bias-variance tradeoff](homework/09_bias_variance.md)
+* Discuss the reading assignment on the [bias-variance tradeoff](homework/08_bias_variance.md)
 * Exploring the bias-variance tradeoff ([notebook](notebooks/08_bias_variance.ipynb)) 
 * Model evaluation using train/test split ([notebook](notebooks/08_model_evaluation.ipynb))
 * Exploring the scikit-learn documentation: [module reference](http://scikit-learn.org/stable/modules/classes.html), [user guide](http://scikit-learn.org/stable/user_guide.html), class and function documentation
